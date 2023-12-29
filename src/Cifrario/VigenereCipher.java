@@ -1,7 +1,5 @@
 package Cifrario;
 
-import java.util.concurrent.TransferQueue;
-
 public class VigenereCipher {
 
     private static char CryptChar(char c, int key) {
