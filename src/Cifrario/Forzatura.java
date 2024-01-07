@@ -17,46 +17,6 @@ public class Forzatura {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        //symbols
-        dictionary.add("5aii");
-        dictionary.add("!");
-        dictionary.add("\"");
-        dictionary.add("#");
-        dictionary.add("$");
-        dictionary.add("%");
-        dictionary.add("&");
-        dictionary.add("'");
-        dictionary.add("(");
-        dictionary.add(")");
-        dictionary.add("*");
-        dictionary.add("+");
-        dictionary.add(",");
-        dictionary.add("-");
-        dictionary.add(".");
-        dictionary.add("/");
-        dictionary.add("0");
-        dictionary.add("1");
-        dictionary.add("2");
-        dictionary.add("3");
-        dictionary.add("4");
-        dictionary.add("5");
-        dictionary.add("6");
-        dictionary.add("7");
-        dictionary.add("8");
-        dictionary.add("9");
-        dictionary.add(":");
-        dictionary.add(";");
-        dictionary.add("<");
-        dictionary.add("=");
-        dictionary.add(">");
-        dictionary.add("?");
-        dictionary.add("@");
-        dictionary.add("[");
-        dictionary.add("\\");
-        dictionary.add("]");
-        dictionary.add("^");
-        dictionary.add("_");
-        dictionary.add("`");
     }
     private static char decryptChar(char c, int key) {
         return (char) (((((int) c) - key + 90 - 32) % 90) + 32);
@@ -95,7 +55,7 @@ public class Forzatura {
                         }
                         if(n == msg.split(" ").length) {
                             chiave = new int[] {i, j, k, l};
-                            System.out.println("chiave: " + Arrays.toString(chiave) + " : " + n);
+                            System.out.println("chiave: " + Arrays.toString(chiave));
                             return msg;
                         }
                     }

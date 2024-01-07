@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CifrarioDiCesare.iml" filepath="$PROJECT_DIR$/CifrarioDiCesare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Crittografia.iml" filepath="$PROJECT_DIR$/Crittografia.iml" />
     </modules>
   </component>
 </project>

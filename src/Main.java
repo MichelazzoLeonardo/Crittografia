@@ -3,8 +3,7 @@ import Cifrario.VigenereCipher;
 
 public class Main {
     public static void main(String[] args) {
-        String crypted_message = VigenereCipher.CryptMessage("Ciao, come stai?", "1 2 3 4");
-        System.out.println("messaggio criptato: " + crypted_message);
+        String crypted_message = "duqr\"aprq c$vuvxk";
 
         String message = Forzatura.force(crypted_message);
         System.out.println("messaggio decriptato: " + message);
